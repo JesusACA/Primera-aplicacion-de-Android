@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_file"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.primera.castro.jesus.estaeslashida.MainFIle"
+    android:orientation="vertical"
+    android:background="#e1bee7">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/usuarioTxt"
+        android:gravity="center_horizontal"
+        android:id="@+id/EditText1"
+        android:background="#d1c4e9"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textoBoton"
+        android:onClick="verValor"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ET1"
+        android:gravity="center_horizontal"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textoBoton2"
+        android:onClick="defendersAhora"
+        android:layout_gravity="center"
+        android:id="@+id/btns2"
+        />
+
+</LinearLayout>

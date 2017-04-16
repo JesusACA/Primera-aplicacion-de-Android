@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EstaEsLaShida</string>
+    <string name="usuarioTxt">Usuario</string>
+    <string name="passwordTxt">Password</string>
+    <string name="textoBoton">Guardar</string>
+    <string name="textoBoton2">Detener</string>
+</resources>
